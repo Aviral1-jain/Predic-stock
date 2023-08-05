@@ -275,7 +275,7 @@ def main():
             train_predict,test_predict,model,df1,test_data,X_test=SplittingDataSet(df1,scaler)
             PlotGraph(train_predict,test_predict,df1,scaler)
             newGraph(model,df1,scaler,test_data,X_test)
-        
+        st.write("By: Aviral Jain")
 
 if __name__ == "__main__":
     main()
